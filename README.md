@@ -481,9 +481,9 @@ The bold notation of key (such aas **type_map**) means that it's a necessary key
 | **fp_params** | Dict | | Parameters for siesta calculation.
 |**fp_params["ecut"]** | Integer | 300 | Define the plane wave cutoff for grid.
 |**fp_params["ediff"]**| Float | 1e-4 | Tolerance of Density Matrix.
-|**fp_params["kspacing"]** | Float| 0.4 | sample factor in BZ zones.
+|**fp_params["kspacing"]** | Float| 0.4 | sample factor in Brillouin zones.
 |**fp_params["mixingweight"]**| Float | 0.05 | Proportion a of output Density Matrix to be used for the input Density Matrix of next SCF cycle (linear mixing).
-|**fp_params["NumberPulay"]** | Intege| 5 | controls the Pulay convergence accelerator.
+|**fp_params["NumberPulay"]** | Integer| 5 | controls the Pulay convergence accelerator.
 
 
 ## Test: Auto-test for Deep Generator
