@@ -57,7 +57,7 @@ Options for TASK:
 ## Download and Install
 One can download the source code of dpgen by
 ```bash
-git clone https://github.com/LiuGroupHNU/dpgen.git
+git clone https://github.com/LiuGroupHNU/dpgen dpgen
 ```
 then you may install DP-GEN easily by: 
 ```bash
