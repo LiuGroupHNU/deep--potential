@@ -6,7 +6,7 @@ The source code link is as follows:
 
 dpdata: https://github.com/deepmodeling/dpdata
 
-dpgen: https://github.com/deepmodeling/dpdata
+dpgen: https://github.com/deepmodeling/dpgen
 
 
 ## Table of Contents
