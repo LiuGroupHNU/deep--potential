@@ -2,9 +2,11 @@
 
 Description: We just add the technical support of SIESTA on the basis of the source code.
 
-The source code link is as follows：
-dpdata：https://github.com/deepmodeling/dpdata
-dpdata：https://github.com/deepmodeling/dpdata
+The source code link is as follows:
+
+dpdata: https://github.com/deepmodeling/dpdata
+
+dpgen: https://github.com/deepmodeling/dpdata
 
 
 ## Table of Contents
