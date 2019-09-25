@@ -59,12 +59,11 @@ def _make_siesta_03_kpoint(sys_data, fp_param):
         kspacing = fp_param['kspacing']
         cell = sys_data['cells'][0]
         cell = np.reshape(cell, [3, 3])
-        ## np.linalg.inv()：矩阵求逆
+
         rcell = np.linalg.inv(cell)
-        ## .T 矩阵转置
+
         rcell = rcell.T
-        # np.ceil()是向上取整，与四舍五入无关 -5.6 --> -5
-        # np.linalg.norm：进行范数运算，范数是对向量（或者矩阵）的度量，是一个标量（scalar）
+
         kpoints = [(np.ceil(2 * np.pi * np.linalg.norm(ii) / kspacing).astype(int))
                    for ii in rcell]
 
