@@ -59,6 +59,7 @@ One can download the source code of dpgen by
 ```bash
 git clone https://github.com/LiuGroupHNU/dpgen dpgen
 ```
+recommend to use python 3.6 or higher version.
 then you may install DP-GEN easily by: 
 ```bash
 cd dpgen
